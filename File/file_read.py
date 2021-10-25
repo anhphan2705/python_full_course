@@ -7,4 +7,4 @@ try:
 except FileNotFoundError:
     print("File was not found")
 #file.closed = return true or false whether the file is closed
-print(file.closed) 
+#print(file.closed) 
