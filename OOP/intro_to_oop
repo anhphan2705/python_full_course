@@ -1,0 +1,4 @@
+- Object = an instance of a class
+- Attributes = what Object has
+- Methods = what Object can do
+- Class = a blueprint that will describes what Attributes and Methods that the distinct type of Object will have

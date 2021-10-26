@@ -1,4 +1,5 @@
 #str.format() = optional method that gives users more control when displaying output
+#f"string {variable}" = better version of str.format()
 
 animal = "cow"
 item = "moon"
@@ -41,3 +42,6 @@ print("The number is {:X}".format(69))
 #{:e} (lowercase) or {:E} (uppercase) = display the input number in scientific number 
 print("The number is {:e}".format(69))
 print("The number is {:E}".format(69))
+
+#f"string {variable}" 
+print(f"Hello my name is {animal}")
