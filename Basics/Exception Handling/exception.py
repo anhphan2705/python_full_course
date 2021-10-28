@@ -21,3 +21,7 @@ else:
 #finally = run the code inside no matter what happen above
 finally: 
     print("This will always execute")
+
+
+##More info at https://docs.python.org/3/tutorial/errors.html
+##More exception types at https://docs.python.org/3/library/exceptions.html
