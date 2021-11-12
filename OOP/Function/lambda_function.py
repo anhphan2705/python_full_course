@@ -1,7 +1,7 @@
 # Lambda function = function written in 1 line using labda keyword
 #                   accepts any number of arguments, but only has one expression
 #                   (think of it as a shortcut of function)
-#                   (use full if needed for a short period of time, thow-away)
+#                   (use full if needed for a short period of time, )
 # Syntax: function_name = lambda parameters:expression
 
 #Normal
