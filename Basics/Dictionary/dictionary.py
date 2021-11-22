@@ -6,6 +6,10 @@ capital = {"USA":"Washington D.C",
             "Vietnam":"Hanoi",
             "Russia":"Moscow"}
 
+#dict[key] = value : add a new key or overwrite old key
+capital["Korea"] = "Seoul"
+print(capital)
+
 #dict[key] = Return value associated with the key
 print(capital["Russia"])        
 

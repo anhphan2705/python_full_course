@@ -7,7 +7,10 @@ for food in food_list:
     print(food)
 
 #list.append(value) = add a new value to the list
-food_list.append("ince cream")
+food_list.append("ice cream")
+
+#list.index(value) = find the index of the value in the list
+food_list.index("ice cream")
 
 #list.remove(value) = remove a value from the list
 food_list.remove("hotdog")

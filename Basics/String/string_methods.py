@@ -3,7 +3,7 @@ name = "anh"
 #len(String) = return length of the String
 print(len(name))
 
-#String.find(Char) = return the first index for Char
+#String.find(Char, start, end) = return the first index for Char
 print(name.find("n"))
 
 #String.capitalize() = return String with capitalized firsst letter
