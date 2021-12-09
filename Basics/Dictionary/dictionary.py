@@ -4,7 +4,8 @@
 capital = {"USA":"Washington D.C", 
             "India":"New Dehli",
             "Vietnam":"Hanoi",
-            "Russia":"Moscow"}
+            "Russia":"Moscow",
+            "China":"Shanghai"}
 
 #dict[key] = value : add a new key or overwrite old key
 capital["Korea"] = "Seoul"
@@ -37,3 +38,7 @@ capital.pop("China")
 
 #dict.clear() = clear all items in the dictionary
 capital.clear()
+
+#dict.fromkeys(sequence, value) = return a new dictionary with the given sequence as key
+new_dict = dict.fromkeys(range(30), "")
+print(new_dict)

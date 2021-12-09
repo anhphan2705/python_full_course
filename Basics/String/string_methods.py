@@ -6,7 +6,7 @@ print(len(name))
 #String.find(Char, start, end) = return the first index for Char
 print(name.find("n"))
 
-#String.capitalize() = return String with capitalized firsst letter
+#String.capitalize() = return String with capitalized first letter
 print(name.capitalize())
 
 #String.upper() = return String in all uppercase
