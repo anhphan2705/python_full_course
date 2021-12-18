@@ -15,7 +15,7 @@ food_list.index("ice cream")
 #list.remove(value) = remove a value from the list
 food_list.remove("hotdog")
 
-#list.pop() = remove the last value in the list
+#list.pop(index) = remove value at index. If no index is passed, the last value in the list will me removed 
 food_list.pop()
 
 #list.insert(index, value) = adding a value to the list at an index

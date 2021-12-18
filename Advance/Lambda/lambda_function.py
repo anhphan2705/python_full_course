@@ -12,7 +12,7 @@ print(double(5))
 
 #Lambda function
 double_lambda = lambda x : x*2
-print(double(5))
+print(double_lambda(5))
 
 multiply = lambda x,y : x*y
 print(multiply(5,6))
