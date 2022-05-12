@@ -21,4 +21,4 @@ passed_students = [i for item in students if i >= 60]
 
 # list = [expression (if/else) for item in iterable if conditional]
 passed_students = [i if i >= 60 else "Failed" for item in students]
-
+print(passed_students)

@@ -5,7 +5,7 @@ print(food_list[0])
 
 for food in food_list:
     print(food)
-
+    
 #list.append(value) = add a new value to the list
 food_list.append("ice cream")
 

@@ -8,7 +8,7 @@ friends = [("Rachel", 19),
            ("chandler", 21),
            ("Ross", 20)]
 
-age = lambda data:data[1] >= 18
+age = lambda data: data[1] >= 18
 
 drinking_buddies = list(filter(age, friends))
 
